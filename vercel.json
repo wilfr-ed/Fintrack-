@@ -1,5 +1,13 @@
 {
+  "framework": null,
   "buildCommand": null,
   "outputDirectory": ".",
-  "framework": null
+  "functions": {
+    "api/chat.js": {
+      "runtime": "@vercel/node@3"
+    },
+    "api/verify-payment.js": {
+      "runtime": "@vercel/node@3"
+    }
+  }
 }
